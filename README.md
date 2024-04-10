@@ -1,8 +1,9 @@
 # statefulset-scaler-operator
-// TODO(user): Add simple overview of use/purpose
+Scaling StatefulSets during peak hours
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+
+Scaling StatefulSets during peak hours involves dynamically adjusting the number of replicas based on increased demand. This ensures optimal performance and resource utilization to handle higher traffic volumes efficiently. his proactive approach optimizes resource allocation and maintains application responsiveness during peak usage periods.
 
 ## Getting Started
 
