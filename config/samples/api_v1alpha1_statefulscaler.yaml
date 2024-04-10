@@ -1,0 +1,17 @@
+apiVersion: api.vishant.online/v1alpha1
+kind: StatefulScaler
+metadata:
+  labels:
+    app.kubernetes.io/name: statefulscaler
+    app.kubernetes.io/instance: statefulscaler-sample
+    app.kubernetes.io/part-of: statefulset-scaler-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: statefulset-scaler-operator
+  name: statefulscaler-sample
+spec:
+  start: 10
+  end: 21
+  replicas: 5
+  statefulset:
+    - name: web
+      namespace: default
